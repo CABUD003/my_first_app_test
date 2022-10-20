@@ -37,6 +37,7 @@ linux/
 windows/
 web/
 my_first_app_test.iml
+.vscode/
 
 # Symbolication related
 app.*.symbols
