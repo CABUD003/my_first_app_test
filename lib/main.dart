@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_first_app_test/constants/key_constants.dart';
 import 'package:my_first_app_test/screens/form_screen.dart';
 
 void main() {
@@ -63,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             CircleAvatar(
+              key: FirstPagekeys.nextPageKey,
               radius: 30,
               backgroundColor: Colors.black45,
               child: IconButton(
@@ -83,6 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 5.0,
             ),
             CircleAvatar(
+              key: FirstPagekeys.incrementKey,
               radius: 30,
               backgroundColor: Colors.black45,
               child: IconButton(
