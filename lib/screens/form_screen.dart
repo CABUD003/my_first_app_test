@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_first_app_test/constants/key_constants.dart';
 
 class FormScreen extends StatefulWidget {
   const FormScreen({Key? key}) : super(key: key);
@@ -48,6 +49,7 @@ class _FormScreenState extends State<FormScreen> {
               ),
             ),
             DropdownButton<String>(
+              key: SecondPageKeys.dropdownKey,
               elevation: 16,
               items: items.map<DropdownMenuItem<String>>(
                 (String value) {
